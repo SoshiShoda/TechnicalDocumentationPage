@@ -1,0 +1,32 @@
+#sub-container {
+    display:flex;
+}
+#main {
+    margin-left: 2rem;
+}
+
+@media screen and (max-width: 800px) {
+    #sub-container {
+        flex-direction:column;
+    }
+}
+
+/* side */
+#side #navbar {
+    position: sticky;
+    top: 0;
+    text-align:center;
+}
+#side #navbar header {
+    font-size:20px;
+    font-weight: bold;
+}
+#side #navbar .navbar-menu {
+    cursor:pointer;
+    border-bottom:1px solid gray;
+}
+
+/* main */
+#main .main-section pre {
+    margin-left: 15px;
+}
